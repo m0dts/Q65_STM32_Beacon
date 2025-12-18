@@ -12,3 +12,5 @@ A10 - GPS 9600bd input (for timing),
 A0 - PWM audio output
 
 Q65 Message to Symbol encoding routines are from RFzero Beacon - see https://rfzero.net/
+
+Q65_bluepill.zip contains the full project folder for STM32 Cube IDE.
