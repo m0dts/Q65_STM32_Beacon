@@ -9,3 +9,5 @@ PWM output (Square Wave) - Used for driveing an LED in my optical beacon!
 Pin Connections:
 A10 - GPS 9600bd input (for timing)
 A0 - PWM audio output
+
+Q65 Message to Symbol encoding routines are from RFzero Beacon - see https://rfzero.net/
