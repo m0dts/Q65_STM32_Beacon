@@ -1,5 +1,5 @@
 # Q65_STM32_Beacon
-Q65 Data Mode tone generation using STM32 Blue Pill board.
+Q65 Data Mode tone generation using STM32 Blue Pill board. (STM32F103C8T6)  
 All modes appear to work, closest tone selected when generating ARR register of timer.
 Designed for 2010Hz Base Frequency, much higher than this will overflow the ARR register in the timer as it's only 16bit. 
 Prescaling lowers the tuning step resolution.
