@@ -224,11 +224,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
 
 
 
-	  if (dataready==1){
+
+	  	  if (dataready==1){
 		  //HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
 		  uint8_t min=atoi(mm);
 		  uint8_t sec=atoi(ss);
@@ -252,6 +252,13 @@ int main(void)
 	  }
 	  HAL_Delay(10);
 ;
+
+	  
+    /* USER CODE END WHILE */
+
+
+
+
 
 
     /* USER CODE BEGIN 3 */
@@ -528,3 +535,4 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
